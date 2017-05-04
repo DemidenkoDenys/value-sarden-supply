@@ -1,0 +1,801 @@
+@charset "UTF-8";
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"), url("../fonts/proximanova-regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"), url("../fonts/proximanova-semibold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"), url("../fonts/proximanova-bold.otf") format("opentype");
+  font-weight: bold;
+}
+/* main background┬аcolor*/
+/* line 50, ../sass/screen.scss */
+input {
+  background-color: #f3efe4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #e2d9bf;
+  height: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+  font-family: Georgia;
+  padding: 0 10px;
+  -webkit-box-shadow: 0px 3px 2px -1px #e2d9bf inset;
+  box-shadow: 0px 3px 2px -1px #e2d9bf inset;
+}
+
+/* line 63, ../sass/screen.scss */
+::-webkit-input-placeholder {
+  color: #757f3c;
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+}
+
+/* line 64, ../sass/screen.scss */
+input::-moz-placeholder {
+  color: #757f3c;
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 35px;
+  color: #757f3c;
+}
+
+/* Firefox 19+ */
+/* line 65, ../sass/screen.scss */
+input:-moz-placeholder {
+  color: #757f3c;
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 35px;
+  color: #757f3c;
+}
+
+/* Firefox 18- */
+/* line 66, ../sass/screen.scss */
+:-ms-input-placeholder {
+  color: #757f3c;
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+}
+
+/* line 68, ../sass/screen.scss */
+i.fa {
+  font-family: FontAwesome !important;
+}
+
+/* line 70, ../sass/screen.scss */
+*:focus {
+  outline: none !important;
+}
+
+/* line 72, ../sass/screen.scss */
+html {
+  font-size: 14px;
+}
+/* line 73, ../sass/screen.scss */
+html body {
+  background-color: #f3efe4;
+  overflow-x: hidden;
+  -ms-touch-action: pan-y;
+  -ms-content-zooming: none;
+}
+/* line 78, ../sass/screen.scss */
+html body body * {
+  font-family: Proxima Nova, Georgia, Arial;
+  font-weight: normal;
+  color: black;
+}
+/* line 83, ../sass/screen.scss */
+html body main, html body footer .row {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+/* line 87, ../sass/screen.scss */
+html body .row > * {
+  padding: 0;
+}
+
+/* line 91, ../sass/screen.scss */
+header {
+  height: 90px;
+  background-color: #FFF;
+  border: 1px solid #e4ded1;
+}
+/* line 97, ../sass/screen.scss */
+header .row {
+  max-width: 1030px;
+  margin: 0 auto;
+}
+/* line 100, ../sass/screen.scss */
+header .row > * {
+  height: 90px;
+}
+/* line 101, ../sass/screen.scss */
+header .row .logo {
+  padding: 0;
+}
+/* line 102, ../sass/screen.scss */
+header .row .logo img {
+  margin-top: 10px;
+}
+/* line 105, ../sass/screen.scss */
+header .menu {
+  position: relative;
+}
+/* line 108, ../sass/screen.scss */
+header .menu p {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 36px;
+  color: #c4b07a;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+/* line 113, ../sass/screen.scss */
+header .menu p .fi {
+  margin-right: 10px;
+  font-size: 14px;
+  color: inherit;
+}
+/* line 120, ../sass/screen.scss */
+header .menu .main-menu a {
+  display: inline-block;
+  border-right: 1px solid black;
+  height: 14px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 16px;
+  color: black;
+  padding: 0 25px;
+}
+/* line 128, ../sass/screen.scss */
+header .menu .main-menu a:last-child {
+  border: none;
+}
+/* line 130, ../sass/screen.scss */
+header .menu .main-menu a:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+/* line 132, ../sass/screen.scss */
+header .menu .main-menu a #carts {
+  display: inherit;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 1.3rem;
+  color: #e8930c;
+}
+/* line 137, ../sass/screen.scss */
+header .menu .main-menu a #carts:before {
+  content: "(";
+  margin-left: 5px;
+}
+/* line 138, ../sass/screen.scss */
+header .menu .main-menu a #carts:after {
+  content: ")";
+}
+/* line 142, ../sass/screen.scss */
+header .menu #mobile-menu {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: none;
+  text-align: center;
+  bottom: 25px;
+  right: -55px;
+  z-index: 9;
+  color: black;
+}
+/* line 157, ../sass/screen.scss */
+header .menu #mobile-menu:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 159, ../sass/screen.scss */
+header .menu #mobile-menu:before {
+  font-family: FontAwesome;
+  content: '\f0c9';
+}
+/* line 166, ../sass/screen.scss */
+header .search {
+  text-align: right;
+  padding-top: 10px !important;
+}
+/* line 170, ../sass/screen.scss */
+header .search .search-menu a {
+  font-size: 12px;
+  color: black;
+  padding-right: 5px;
+  font-weight: 600;
+  border-right: 1px solid black;
+}
+/* line 176, ../sass/screen.scss */
+header .search .search-menu a:last-child {
+  border: none;
+}
+/* line 177, ../sass/screen.scss */
+header .search .search-menu a:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+/* line 180, ../sass/screen.scss */
+header .search .search-container {
+  margin-top: 10px;
+  position: relative;
+}
+/* line 184, ../sass/screen.scss */
+header .search .search-container #site-search {
+  width: 250px;
+}
+/* line 186, ../sass/screen.scss */
+header .search .search-container i {
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+  right: 8px;
+  bottom: 10px;
+}
+
+/* line 195, ../sass/screen.scss */
+main {
+  background-color: #FFF;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border: 1px solid #e4ded1;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 203, ../sass/screen.scss */
+main > .row {
+  padding: 25px 35px;
+  height: auto;
+}
+/* line 207, ../sass/screen.scss */
+main > .row article:first-child {
+  overflow: hidden;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+/* line 213, ../sass/screen.scss */
+main > .row article:first-child > * {
+  position: absolute;
+  z-index: 10;
+}
+/* line 215, ../sass/screen.scss */
+main > .row article:first-child img {
+  visibility: hidden;
+}
+/* line 217, ../sass/screen.scss */
+main > .row article:first-child h1 {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 36px;
+  color: white;
+  bottom: 210px;
+  left: 50px;
+  max-height: 150px;
+  text-align: left;
+  margin-right: 20px;
+}
+/* line 225, ../sass/screen.scss */
+main > .row article:first-child > a {
+  display: inline-block;
+  height: 45px;
+  width: 180px;
+  left: 50px;
+  bottom: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 45px;
+  color: white;
+  background: #e8930c;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border-bottom: 2px solid #d08000;
+  border-right: 2px solid #d08000;
+}
+/* line 241, ../sass/screen.scss */
+main > .row article:first-child p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: white;
+  display: block;
+  margin: 30px 0 20px 0;
+  top: 185px;
+  right: 20px;
+  left: 50px;
+  max-width: 650px;
+  height: 72px;
+  overflow: hidden;
+  text-align: left;
+}
+/* line 256, ../sass/screen.scss */
+main > .row article.latest-posts section {
+  position: static !important;
+  display: block;
+  height: 200px;
+  width: 100%;
+  padding: 35px 0 40px 0;
+  border-bottom: 1px solid lightgrey;
+}
+/* line 264, ../sass/screen.scss */
+main > .row article.latest-posts section:last-child {
+  border: none;
+}
+/* line 266, ../sass/screen.scss */
+main > .row article.latest-posts section > * {
+  margin: 0;
+}
+/* line 268, ../sass/screen.scss */
+main > .row article.latest-posts section picture {
+  height: 140px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+}
+/* line 274, ../sass/screen.scss */
+main > .row article.latest-posts section picture img {
+  max-width: 200px;
+  max-height: 140px;
+}
+/* line 277, ../sass/screen.scss */
+main > .row article.latest-posts section > p {
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+/* line 279, ../sass/screen.scss */
+main > .row article.latest-posts section .post {
+  height: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: grey;
+}
+/* line 282, ../sass/screen.scss */
+main > .row article.latest-posts section .post .readmore {
+  text-decoration: none;
+}
+/* line 283, ../sass/screen.scss */
+main > .row article.latest-posts section .post .readmore:after {
+  content: ' Read More';
+  color: #d98d1b;
+}
+/* line 284, ../sass/screen.scss */
+main > .row article.latest-posts section .post p {
+  overflow: hidden;
+}
+/* line 287, ../sass/screen.scss */
+main > .row article.latest-posts section h2 {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: #d98d1b;
+  vertical-align: top;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+/* line 292, ../sass/screen.scss */
+main > .row article.latest-posts section span {
+  font-size: 12px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: lightgrey;
+  font-family: Georgia;
+}
+/* line 295, ../sass/screen.scss */
+main > .row article.latest-posts section span i {
+  margin-right: 5px;
+}
+/* line 296, ../sass/screen.scss */
+main > .row article.latest-posts section span:last-child {
+  margin-left: 10px;
+}
+/* line 300, ../sass/screen.scss */
+main > .row article.latest-posts:before {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: gray;
+  content: 'latest posts';
+  margin-top: 30px;
+}
+
+/* line 311, ../sass/screen.scss */
+aside.categories {
+  margin-top: 20px !important;
+}
+/* line 314, ../sass/screen.scss */
+aside.categories * {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 24px;
+  color: black;
+}
+/* line 316, ../sass/screen.scss */
+aside.categories > *:before {
+  display: inline-block;
+  text-transform: uppercase;
+  color: grey;
+  margin: 30px 0;
+}
+/* line 321, ../sass/screen.scss */
+aside.categories > *:first-child:before {
+  margin-top: 10px;
+}
+/* line 323, ../sass/screen.scss */
+aside.categories nav a {
+  display: block;
+}
+/* line 325, ../sass/screen.scss */
+aside.categories .category a {
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 50px;
+}
+/* line 327, ../sass/screen.scss */
+aside.categories .category:before {
+  content: 'categories';
+}
+/* line 328, ../sass/screen.scss */
+aside.categories .archives:before {
+  content: 'archives';
+}
+/* line 329, ../sass/screen.scss */
+aside.categories .follow:before {
+  content: 'follow us';
+}
+/* line 330, ../sass/screen.scss */
+aside.categories .join:before {
+  content: 'join newsletter';
+}
+/* line 332, ../sass/screen.scss */
+aside.categories a.active, aside.categories a:active, aside.categories a:hover {
+  color: #94a14c;
+  text-decoration: underline;
+}
+/* line 336, ../sass/screen.scss */
+aside.categories .follow a {
+  position: relative;
+  margin-left: 25px;
+}
+/* line 340, ../sass/screen.scss */
+aside.categories .follow a i {
+  font-family: FontAwesome;
+  position: absolute;
+  left: -25px;
+}
+/* line 343, ../sass/screen.scss */
+aside.categories .follow a i.fa-rss {
+  color: #d98d1b;
+}
+/* line 347, ../sass/screen.scss */
+aside.categories .join {
+  position: relative;
+}
+/* line 350, ../sass/screen.scss */
+aside.categories .join div #join-input {
+  width: 160px;
+  float: left;
+  margin-top: -10px;
+}
+/* line 355, ../sass/screen.scss */
+aside.categories .join div i {
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+  left: 130px;
+  bottom: -14px;
+}
+
+/* line 364, ../sass/screen.scss */
+hr {
+  height: 1px !important;
+  color: #51582a;
+  background-color: #51582a;
+  border: 0px none !important;
+  border-bottom: 1px solid #889446 !important;
+  clear: both;
+  margin-right: 50px;
+}
+
+/* line 373, ../sass/screen.scss */
+footer {
+  background-color: #757f3c;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  height: auto;
+}
+/* line 379, ../sass/screen.scss */
+footer a {
+  display: block;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 19px;
+  color: #ffffff;
+}
+/* line 383, ../sass/screen.scss */
+footer a:hover {
+  color: #3b401e;
+}
+/* line 386, ../sass/screen.scss */
+footer .row > * {
+  position: relative;
+  padding-right: 50px;
+  height: auto;
+}
+/* line 391, ../sass/screen.scss */
+footer .row > *:before {
+  position: absolute;
+  top: -20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 36px;
+  color: #3b401e;
+}
+/* line 400, ../sass/screen.scss */
+footer .follow-footer a {
+  position: relative;
+  margin-left: 20px;
+}
+/* line 401, ../sass/screen.scss */
+footer .follow-footer hr {
+  margin-right: 0 !important;
+}
+/* line 402, ../sass/screen.scss */
+footer .follow-footer > a i {
+  position: absolute;
+  left: -20px;
+}
+/* line 405, ../sass/screen.scss */
+footer .shop {
+  height: auto;
+}
+/* line 407, ../sass/screen.scss */
+footer .shop p {
+  height: auto;
+  margin-right: 50px;
+  padding-right: 50px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+/* line 419, ../sass/screen.scss */
+footer nav .search-footer {
+  margin-top: 30px;
+  padding: 0;
+  position: relative;
+}
+/* line 424, ../sass/screen.scss */
+footer nav .search-footer div {
+  position: relative;
+}
+/* line 426, ../sass/screen.scss */
+footer nav .search-footer div input {
+  width: 100%;
+}
+/* line 427, ../sass/screen.scss */
+footer nav .search-footer div i {
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 1rem;
+  color: #757f3c;
+  right: 8px;
+  bottom: 11px;
+}
+/* line 435, ../sass/screen.scss */
+footer .customer:before {
+  content: 'CUSTOMER SERVICE';
+}
+/* line 436, ../sass/screen.scss */
+footer .shop:before {
+  content: 'SHOP COSTGRO';
+}
+/* line 437, ../sass/screen.scss */
+footer .follow-footer:before {
+  content: 'FOLLOW COSTGRO';
+}
+/* line 438, ../sass/screen.scss */
+footer .search-footer:before {
+  content: 'SEARCH COSTGRO';
+  position: absolute;
+  top: -20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 36px;
+  color: #3b401e;
+}
+
+/* line 446, ../sass/screen.scss */
+#modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+  text-align: center;
+}
+/* line 456, ../sass/screen.scss */
+#modal nav.mobile-menu-nav {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+/* line 462, ../sass/screen.scss */
+#modal nav.mobile-menu-nav a {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Proxima Nova;
+  line-height: 36px;
+  color: #3b401e;
+}
+/* line 469, ../sass/screen.scss */
+#modal nav.mobile-menu-nav a:hover {
+  color: #757f3c;
+}
+/* line 471, ../sass/screen.scss */
+#modal nav.mobile-menu-nav a[data-dismiss='modal'] {
+  color: #CD2D2D;
+}
